@@ -29,7 +29,7 @@ public class SubscribeHandler extends AbstractHandler {
         logger.info("新关注用户 OPENID: " + wxMessage.getFromUser());
 
         // 获取微信用户基本信息
-        WxMpUser userWxInfo = wxMpService.getUserService().userInfo(wxMessage.getFromUser(), null);
+        WxMpUser userWxInfo = wxMpService.getUserService().userInfo(wxMessage.getFromUser(), "zh_CN");
 
         if (userWxInfo != null) {
 //             TODO 可以添加关注用户到本地
