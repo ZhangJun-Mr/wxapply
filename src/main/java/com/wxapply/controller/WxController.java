@@ -27,7 +27,7 @@ import java.io.FileOutputStream;
 import java.io.IOException;
 
 @RestController
-@RequestMapping("/")
+@RequestMapping("${adminPath}")
 public class WxController {
 
     public static final Logger logger = LoggerFactory.getLogger(WxController.class);
