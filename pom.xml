@@ -77,6 +77,42 @@
             <artifactId>spring-boot-starter-test</artifactId>
             <scope>test</scope>
         </dependency>
+
+        <!--dataX-->
+<!--
+        <dependency>
+            <groupId>com.alibaba.datax</groupId>
+            <artifactId>datax-core</artifactId>
+            <version>0.0.1-SNAPSHOT</version>
+            <systemPath>${basedir}/src/main/java/com/datax/datax/lib/datax-core-0.0.1-SNAPSHOT.jar</systemPath>
+        </dependency>
+        <dependency>
+            <groupId>com.alibaba.datax</groupId>
+            <artifactId>datax-common</artifactId>
+            <version>0.0.1-SNAPSHOT</version>
+            <systemPath>${basedir}/src/main/java/com/datax/datax/lib/datax-common-0.0.1-SNAPSHOT.jar</systemPath>
+        </dependency>
+        <dependency>
+            <groupId>com.alibaba.datax</groupId>
+            <artifactId>datax-transformer</artifactId>
+            <version>0.0.1-SNAPSHOT</version>
+            <systemPath>${basedir}/src/main/java/com/datax/datax/lib/datax-transformer-0.0.1-SNAPSHOT.jar</systemPath>
+        </dependency>
+        <dependency>
+            <groupId>com.alibaba.datax</groupId>
+            <artifactId>streamreader</artifactId>
+            <version>0.0.1-SNAPSHOT</version>
+            <systemPath>${basedir}/src/main/java/com/datax/datax/plugin/reader/streamreader/streamreader-0.0.1-SNAPSHOT.jar</systemPath>
+        </dependency>
+        <dependency>
+            <groupId>com.alibaba.datax</groupId>
+            <artifactId>streamwriter</artifactId>
+            <version>0.0.1-SNAPSHOT</version>
+            <systemPath>${basedir}/src/main/java/com/datax/datax/plugin/writer/streamwriter/streamwriter-0.0.1-SNAPSHOT.jar</systemPath>
+        </dependency>
+-->
+
+
     </dependencies>
 
     <build>
